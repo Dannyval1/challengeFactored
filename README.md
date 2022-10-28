@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Challenge Factored - Frontend Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been developed from Front with React. All the layout content has Material UI and Bootstrap tags. The Back was developed with Node Js and Express Js. The Database was developed with MongoDB.
 
-## Available Scripts
+First, we have a login and register screen. When you register in the system, your data is saved in the database. Once you registered, you proceed to access through the login screen to access your profile.
 
-In the project directory, you can run:
+In your profile you will find your personal information as your name, your position, about you and a spider type chart with all your skills.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For running this project in your personal computer, you have to open every folder: 
+factored === Front and factored-node === Back.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once you opened the folders in your code editor, first, let's load the packages for Front.
+You have to run the command "npm install" in the Terminal inside the Front Project (factored).
 
-### `npm test`
+When it finished to load the packages, you can run the command "npm start" to run the frontend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Now, let's load the packages for Back. You have to do the same. Open the folder of Backend and open it's terminal. Run the command "npm install" in the Terminal inside the Back Project (factored-node). When it finished to load the packages, you can run the command "node App.js" to run the backend.
 
-### `npm run build`
+That's way you will have running in one window the frontend and the other window the backend.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+What things you need to install the software
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+NODE
+NPM
+```
 
-### `npm run eject`
+### Installing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can install Node from this page https://nodejs.org/en/download/. This will install NPM too.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To verify if you has installed correctly the Node and NPM, run the next command: 
+node -v
+npm -v
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Built With
 
-## Learn More
+* [React](https://reactjs.org/) - The front framework used
+* [Node](https://nodejs.org/en/) - Runtime environment
+* [Material UI](https://mui.com/) - React component Library
+* [Bootstrap](https://getbootstrap.com/) - Feature-packed frontend toolkit
+* [Express](https://expressjs.com/) - Framework web for Node
+* [MongoDb](https://www.mongodb.com/) - Database
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **Danny Valencia** - *Initial work* - (github.com/Dannyval1)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
