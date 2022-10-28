@@ -1,0 +1,32 @@
+.backPurple {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-login {
+  margin-right: 10px;
+}
+
+.formLogIn {
+  border-radius: 10px;
+  padding: 50px;
+  margin: 35px 0;
+  background: #ffffff;
+  box-shadow: 10px 10px 18px -1px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 10px 10px 18px -1px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 10px 10px 18px -1px rgba(0, 0, 0, 0.37);
+}
+
+.avatarImg {
+  margin: 0 auto;
+}
+
+.titleLog {
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
