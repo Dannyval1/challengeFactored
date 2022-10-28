@@ -10,7 +10,7 @@ const Profile = () => {
   const [generalData, setGeneralData] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:8080/profile", {
+    fetch("http://localhost:5000/profile", {
       method: "POST",
       crossDomain: true,
       headers: {

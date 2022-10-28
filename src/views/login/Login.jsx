@@ -33,7 +33,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:8080/login", {
+    fetch("http://localhost:5000/login", {
       method: "POST",
       crossDomain: true,
       headers: {
